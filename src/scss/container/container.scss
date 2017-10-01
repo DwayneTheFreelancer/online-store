@@ -1,0 +1,175 @@
+.modal-dialog, .modal-lg {
+    width: 100%;
+    margin-top: 90px;
+}
+
+.modal-content {
+    padding: 100px 0;
+}
+
+.form-info, .fill-form {
+    width: 50%;
+    display: inline-block;
+    margin-right: -4px;
+    padding: 0 1em;
+    vertical-align: top;
+}
+
+.banner {
+    width: 100%;
+}
+
+.inner-parallax {
+    background: url("../images/home.jpg") repeat fixed 100% top;
+    height: 600px;
+    background-size: cover;
+    //margin-top: 200px;
+}
+
+#submit {
+    width: 120px;
+    height: 40px;
+    background-color: black;
+    color: #fff;
+}
+
+#submit:hover {
+    background-color: #343333;
+}
+
+#head-controls {
+    margin: 50px 0;
+}
+
+.home-items {
+    width: 100%;
+}
+
+.item-controls {
+    width: 90%;
+    margin: 0 auto;
+    h3, .controls {
+        display: inline-block;
+    }
+
+    .controls {
+        float: right;
+        margin-top: 20px;
+    }
+
+
+}
+
+.controls i {
+    cursor: pointer;
+}
+
+#parent-items-1 {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    span {
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+
+#parent-items-2 {
+    width: 80%;
+    margin: 0 auto;
+    display: none;
+    flex-wrap: wrap;
+    span {
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+
+.row {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.store-menu {
+    margin: 50px 0;
+    padding: 0 50px;
+}
+
+.shop-menu {
+    border: 1px solid black;
+}
+
+.easy {
+    //margin-top: 30px;
+    margin: 20px 0;
+}
+
+.social-links li {
+    list-style: none;
+}
+
+
+
+/**********************
+    POP UP MODAL #1
+**********************/
+
+.button-popup {
+    text-align: center;
+    /*background-color: red;*/
+    padding: 10px;
+}
+
+.contents, .button-popup, .button-popup-2 {
+    text-align: center;
+}
+
+.button-popup a {
+    color: #fff;
+    font-weight: 1.2em;
+}
+
+.window-popup {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    background: rgba(0,0,0,0.7);
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.wp-content {
+    width: 80%;
+    height: 80%;
+    background-color: #fff;
+    border-radius: 3px;
+    position: absolute;
+    left: 10%;
+    top: 5%;
+    /*bottom: 20%;*/
+}
+
+.wp-content img {
+    width: 100%;
+    height: 500px;
+}
+
+.wp-content a {
+    padding: 10px;
+    background-color: black;
+    text-decoration: none;
+    position: absolute;
+    right: 20px;
+    bottom: 600px;
+    border-radius: 5px;
+}
+
+.close-btn {
+    width: 20px;
+    height: 20px;
+}

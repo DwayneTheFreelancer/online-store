@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Dwayne's Online Store</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link type="text/css" rel="stylesheet" href="src/css/application.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="header">
+            <i class="material-icons"><a class="drop-trigger" href="#">dehaze</a></i>
+            <h1 class="middle"><a class="drop-trigger" href="index.html">Dwayne's Shop</a></h1>    
+            <i class="material-icons"><a data-toggle="modal" data-target=".bs-example-modal-lg" href="#">mail_outline</a></i>
+        </div>
+
+        <div class="drop-header">
+            <ul class="drop-links">
+                <li><a href="#">HOME</a></li>
+                <li><a href="fall-lookbook.html">FALL LOOKBOOK</a></li>
+                <li><a href="shop.html">SHOP</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="#">+ABOUT</a></li>
+                <li><a href="#">READ ME</a></li>
+            </ul>
+        </div>
+        
+        <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="form-info">
+                        <h1>Contact Us</h1>
+                        <p>Use the form on the right to contact us.</p>
+                        <p>You can edit the text in this area, and change where the contact form on the right submits to, by entering edit mode using the modes on the bottom right. </p>
+                    </div>
+                    <form class="fill-form" action="index.html">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address*</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message*</label>
+                            <textarea class="form-control" id="message" placeholder="Message" rows="3"></textarea>
+                        </div>
+                        <button type="submit" id="submit">SUBMIT</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="banner">
+            <div class="inner-parallax">
+
+            </div>
+        </div>
+
+        <div id="head-controls">
+            <div class="item-controls">
+                <h3>Featured Items</h3>
+                <span class="controls">
+                    <i class="material-icons" id="left-control">chevron_left</i>
+                    <i class="material-icons" id="right-control">chevron_right</i>
+                </span>
+            </div>
+            <div class="home-items">
+                <div id="parent-items-1">
+                    <span>
+                        <a href="shop-planck-sunglasses.html"><img class="img-item-1" src="src/images/glasses-2.png" width="200px" height="200px"/></a>
+                        <h3><a href="shop-planck-sunglasses.html">Planck Glasses</a></h3>
+                        <p>$199.99</p>
+                    </span>
+                    <span>
+                        <a href="shop-leather-wallet.html"><img class="img-item-1" src="src/images/wallet.jpg" width="200px" height="200px"/></a>
+                        <h3><a href="shop-leather-wallet.html">Leather Wallet</a></h3>
+                        <p>$99.99</p>
+                    </span>
+                    <span>
+                        <a href="shop-breifcase.html"><img class="img-item-1" src="src/images/briefcase.jpg" width="200px" height="200px"/></a>
+                        <h3><a href="shop-breifcase.html">Business Briefcase</a></h3>
+                        <p>$399.99</p>
+                    </span>                    
+                </div>
+                <div id="parent-items-2">
+                    <span>
+                        <a href="shop-women-sunglasses.html"><img src="src/images/glasses-1.jpg" width="200px" height="200px"/></a>
+                        <h3><a href="shop-women-sunglasses.html">Women Sunglasses</a></h3>
+                        <p>$250.00</p>
+                    </span>
+                    <span>
+                        <a href="shop-purse.html"><img src="src/images/purse.jpg" width="200px" height="200px"/></a>
+                        <h3><a href="shop-purse.html">Designer Purse</a></h3>
+                        <p>$599.99</p>
+                    <span>
+                </div>
+            </div>
+        </div>
+
+        <div class="lookbook">
+            <a href="fall-lookbook.html"><img src="src/images/product-collage.jpg" width="100%" height="600px"></a>
+        </div>
+
+        <div class="page-wrap"></div>
+
+        <div class="pre-footer">
+            <p>By: Dwayne Munro</p>
+            <a href="#">TERMS & CONDITIONS</a>
+            <a href="#">SHIPPING INFO</a>
+        </div>
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script> -->
+    <script src="src/js/dropHeader.js"></script>
+    <script src="src/js/itemControls.js"></script>
+    </body>
+</html>
