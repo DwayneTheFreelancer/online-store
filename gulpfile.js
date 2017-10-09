@@ -55,7 +55,7 @@ gulp.task("minifyCSS", function() {
 gulp.task("minifyHtml", function() {
     return gulp.src("/*.html")
         .pipe(htmlmin({collapseWhitespace: true}))
-        .pipe(gulp.dest('build/'));
+        .pipe(gulp.dest('build/layouts'));
 });
 
 gulp.task("minifyImg", function() {
@@ -74,7 +74,8 @@ gulp.task("clean", function() {
 });
 
 gulp.task("build", ["minifyScripts", "compileSass", "minifyCSS", "minifyImg", "minifyHtml", "clean"], function() {
-    return gulp.src(["src/css/application.css", "src/js/app.min.js", "index.html", "fall-lookbook.html", "shop.html", "shop-planck-sunglasses.html", "shop-aviator-sunglasses.html", "src/images/*"], { base: "./" })
+    return gulp.src(["src/css/application.css", "src/js/app.min.js", "index.html", "fall-lookbook.html", "shop.html", "shop-planck-sunglasses.html", "shop-aviator-sunglasses.html", "shop-breifcase.html", "shop-leather-wallet.html", "shop-purse.html",    
+    "shop-women-sunglasses.html", "blog.html", "eyewear.html", "leathers.html", "src/images/*"], { base: "./" })
         .pipe(gulp.dest("build"));
 });
 
