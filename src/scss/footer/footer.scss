@@ -6,12 +6,31 @@
 .pre-footer {
     display: flex;
     justify-content: center;
-    padding: 20px 0 5px 0;
+    padding: 20px 0 15px 0;
     background-color: #EAECEE;
     margin-top: 50px;
+    list-style: none;
     a {
         padding: 0 10px;
         text-decoration: none;
     }
 }
 
+@media (min-width: 320px) and (max-width: 767px) {
+    .main-footer {
+        width: 100%;
+        background-color: #EAECEE;
+    }
+    .pre-footer {
+        display: flex;
+        flex-direction: column;
+        li {
+            width: 100%;
+            text-align: center;
+            padding: 10px 0;
+            font-size: 0.9em;
+            font-weight: 300;
+            list-style: none;
+        }
+    }
+}
